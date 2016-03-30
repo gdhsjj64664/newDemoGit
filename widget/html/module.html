@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
-    <title>开发</title>
-    <link rel="stylesheet" type="text/css" href="../css/api.css"/>
-   
-    <style>
-       
-    </style>
-</head>
-<body>
-    <div class="empty">***占位字符</div>
-    <script src="./script/api.js"></script>
-   
-    <script>
-    
-    apiready = function(){
-        var personalCenter = api.require('personalCenter');
-
-personalCenter.open({
-    y:50,
-    h:300,
-        imgPath: 'widget://res/personalCenter1.png',
-        placeholderImg: 'widget://res/personalCenter.png',
-        btnArray: [{
-            bgImg: 'widget://res/personal_btn_nor.png',
-            selectedImg: 'widget://res/personal_btn_sele.png'
-        }, {
-           bgImg: 'widget://res/personal_btn_nor.png',
-           selectedImg: 'widget://res/personal_btn_sele.png'
-        }, {
-            bgImg: 'widget://res/personal_btn_nor.png',
-            selectedImg: 'widget://res/personal_btn_sele.png'
-        }]
-       
-},function( ret, err ){
-    if( ret ){
-         alert( JSON.stringify( ret ) );
-    }else{
-         alert( JSON.stringify( err ) );
-    }
-});
-}
-    </script>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>开发</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<style>
+		</style>
+	</head>
+	<body>
+		<div class="empty">
+			***占位字符
+		</div>
+		<script src="./script/api.js"></script>
+		<script>
+			apiready = function() {
+				var personalCenter = api.require('personalCenter');
+				personalCenter.open({
+					y : 50,
+					h : 300,
+					imgPath : 'widget://res/personalCenter1.png',
+					placeholderImg : 'widget://res/personalCenter.png',
+					btnArray : [{
+						bgImg : 'widget://res/personal_btn_nor.png',
+						selectedImg : 'widget://res/personal_btn_sele.png'
+					}, {
+						bgImg : 'widget://res/personal_btn_nor.png',
+						selectedImg : 'widget://res/personal_btn_sele.png'
+					}, {
+						bgImg : 'widget://res/personal_btn_nor.png',
+						selectedImg : 'widget://res/personal_btn_sele.png'
+					}]
+				}, function(ret, err) {
+					if (ret) {
+						alert(JSON.stringify(ret));
+					} else {
+						alert(JSON.stringify(err));
+					}
+				});
+			}
+		</script>
+	</body>
 </html>
