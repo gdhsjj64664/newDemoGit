@@ -1,4 +1,5 @@
 var personalCenter = api.require('personalCenter');
+alert(personalCenter);
 personalCenter.open({
         imgPath: 'widget://res/personalCenter1.png',
         placeholderImg: 'widget://res/personalCenter.png',
