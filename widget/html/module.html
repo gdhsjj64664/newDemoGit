@@ -15,6 +15,8 @@
     <script src="./script/api.js"></script>
     <script src="./script/personalCenter.js"></script>
     <script>
+    
+    apiready = function(){
         var personalCenter = api.require('personalCenter');
 alert(personalCenter);
 personalCenter.open({
@@ -37,6 +39,7 @@ personalCenter.open({
          alert( JSON.stringify( err ) );
     }
 });
+}
     </script>
 </body>
 </html>
