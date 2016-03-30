@@ -20,6 +20,8 @@
         var personalCenter = api.require('personalCenter');
 
 personalCenter.open({
+    y:50,
+    h:300,
         imgPath: 'widget://res/personalCenter1.png',
         placeholderImg: 'widget://res/personalCenter.png',
         btnArray: [{
@@ -31,7 +33,8 @@ personalCenter.open({
         }, {
             bgImg: 'widget://res/personal_btn_nor.png',
             selectedImg: 'widget://res/personal_btn_sele.png'
-        }]
+        }],
+        fixedOn:api.frameName
 },function( ret, err ){
     if( ret ){
          alert( JSON.stringify( ret ) );
