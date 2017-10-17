@@ -1,29 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<widget id="A6903010123826" version="0.0.1"> 
-  <name>newDemoGit</name>  
-  <description/>  
-  <author email="qa1@apicloud.com" href="http://www.apicloud.com">技术支持-F</author>  
-  <content src="index.html"/>  
-  <preference name="pageBounce" value="false"/>  
-  <preference name="appBackground" value="rgba(0,0,0,0.0)"/>  
-  <preference name="windowBackground" value="rgba(0,0,0,0.0)"/>  
-  <preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>  
-  <preference name="hScrollBarEnabled" value="true"/>  
-  <preference name="vScrollBarEnabled" value="true"/>  
-  <preference name="autoLaunch" value="true"/>  
-  <preference name="fullScreen" value="false"/>  
-  <preference name="autoUpdate" value="true"/>  
-  <preference name="smartUpdate" value="false"/>  
-  <preference name="debug" value="true"/>  
-  <preference name="statusBarAppearance" value="true"/>  
-  <permission name="readPhoneState"/>  
-  <permission name="camera"/>  
-  <permission name="record"/>  
-  <permission name="location"/>  
-  <permission name="fileSystem"/>  
-  <permission name="internet"/>  
-  <permission name="bootCompleted"/>  
-  <permission name="hardware"/>  
-  <access origin="*"/> 
+<widget id="A6903010123826" version="0.0.1">
+	<name>newDemoGit</name>
+	<description/>
+	<author email="qa1@apicloud.com" href="http://www.apicloud.com">技术支持-F</author>
+	<content src="index.html"/>
+	<preference name="pageBounce" value="false"/>
+	<preference name="appBackground" value="rgba(0,0,0,0.0)"/>
+	<preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
+	<preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+	<preference name="hScrollBarEnabled" value="true"/>
+	<preference name="vScrollBarEnabled" value="true"/>
+	<preference name="autoLaunch" value="true"/>
+	<preference name="fullScreen" value="false"/>
+	<preference name="autoUpdate" value="true"/>
+	<preference name="softInputMode" value="resize"/>
+	<preference name="smartUpdate" value="false"/>
+	<preference name="debug" value="true"/>
+	<preference name="softInputMode" value="resize"/>
+	<preference name="wifidebug" value="true"/>
+	<preference name="statusBarAppearance" value="true"/>
+	<preference name="backgroundMode" value="audio | location"/>
+	<preference name="userAgent" value="APICloud"/>
+	<preference name="urlScheme" value="tbopen24613905"/>
+	<preference name="querySchemes" value="tbopen,tmall"/>
+	<meta-data name="com.alibaba.app.appkey" value="23420104"/>
+	<meta-data name="com.alibaba.app.appsecret" value="4a8e90a279c7c116883925cc0b5784bc"/>
+	<preference name="querySchemes" value="baidumap,iosamap"/>
+	<permission name="readPhoneState"/>
+	<permission name="camera"/>
+	<permission name="record"/>
+	<permission name="location"/>
+	<permission name="fileSystem"/>
+	<permission name="internet"/>
+	<permission name="bootCompleted"/>
+	<permission name="hardware"/>
+	<access origin="*"/>
+	<!--
+	<feature name="qiyuSdk">
+	<param name="appKey" value="2e1d46030388a4db71a7a6229cfd7e2f"/>
+	<param name="appName" value= "newdemogit"/>
+	</feature>
+	<feature name="JYYZ">
+	<param name="android_id" value="c691bcc219f10086c0240353bee44f27"/>
+	</feature>
+
+	<feature name="aMap">
+	<param name="android_api_key" value="f7Is0dWLom2q6rV3ZfFPZ1aa" />
+	<param name="ios_api_key" value="19616035c2000f14ea2805a127b9356c" />
+	</feature>
+
+	<feature name="Didi">
+	<param name="appid" value="didi6358654F4F797775307A367354733244"/>
+	<param name="secret" value="c075172a239dcbfc54f13b187e41e8aa"/>
+	</feature>
+	<feature name="BugId">
+	<param name="android_id" value="123456789" />
+	<param name="ios_id" value="900009741" />
+	</feature>
+
+	<feature name="aMap">
+	<param name="android_api_key" value="f7Is0dWLom2q6rV3ZfFPZ1aa" />
+	<param name="ios_api_key" value="19616035c2000f14ea2805a127b9356c" />
+	</feature>
+
+	<feature name="alibaichuan1224">
+	<feature name="aliTrade">
+	<param name="appKey" value="23420541"/>
+	<param name="urlScheme" value="tbopen23420541"/>
+	</feature>
+
+	<feature name="tencentMTA">
+	<param name="android_appkey" value="Aqc1105051158"/>
+	<param name="android_channel" value="apicloud"/>
+	<param name="ios_appkey" value="Iqc1105051158"/>
+	<param name="ios_channel" value="apicloud"/>
+	</feature>
+
+	<feature name="hanvonCloudIdCardReader">
+	<param name="androidkey" value="163114c8-31b5-4424-bb85-617f81cf54d9" />
+	<param name="ioskey" value="01170ffa-f0e4-4ac8-936c-b3e3de68f090"/>
+	</feature>
+	-->
+	<!--
+	<feature name="baiduMTJ">
+	<param name="android_appkey" value="c8375f46ef" />
+	<param name="ios_appkey" value="236c0a52ca" />
+	<param name="android_channel" value="apicloud" />
+	<param name="ios_channel" value="appstore" />
+	</feature>
+
+	<preference name="urlScheme" value="tbopen23420541"/>
+	<preference name="querySchemes" value="tmall,tbopen"/>
+
+	<feature name="hanvonCloudTableReader">
+	<param name="androidkey" value="086cdebc-736c-4a48-a7cc-112f732d08b1" />
+	<param name="ioskey" value="5f1ad2f9-925a-4007-9110-71edbd8ad9e5"/>
+	</feature>
+	<feature name="bMap">
+	<param name="android_api_key" value="Sdq7pO5EAjzDvGndzjBQfPulGxiP5AmU"/>
+	<param name="ios_api_key" value="Vw46przun7VhHBZTvKG2Wxym"/>
+	</feature>
+	<feature name="taobao">
+	<param name="urlScheme" value="tbopen23420541"/>
+	<preference name="querySchemes" value="tbopen,tmall"/>
+	</feature>
+
+	<feature name="qiniuUpfile">
+		<param name="bucket" value="fengcheng"/>
+		<param name="SecretKey" value="BKmlyR1jo59Q5LGrtXAZNLe0otrQT8OzAz0DFLOc"/>
+		<param name="AccessKey" value="gU-sLTFWom4wIJgO8lSQi1QnRA8dRGlixI9eXv-q"/>
+	</feature>
+
+	<feature name="smsVerify">
+	<param name="android_app_key" value="151a1cb85bdfe"/>
+	<param name="android_app_secret" value="e592567802048653c6840f5fdcbc2e41"/>
+	<param name="ios_app_key" value="151a3ddd0084c"/>
+	<param name="ios_app_secret" value="2f98c22b1039d188842d0cee5c7c4e87"/>
+	</feature>
+
+	<feature name="aliPush">
+		<param name="AppKey" value="23420104"/>
+		<param name="AppSecret" value="4a8e90a279c7c116883925cc0b5784bc"/>
+		<param name="autoRegister" value="true"/>
+	</feature>
+		-->
+	<!-- <feature name="aliTradePlus">
+		<param name="appKey" value="23420541"/>
+		<param name="urlScheme" value="tbopen23420541"/>
+	</feature>
+-->
+	<!--
+	<feature name="umengAnalytics">
+	<param name="ios_app_key" value="57a33568e0f55a74fd003a5f"/>
+	<param name="ios_app_channel" value="APICloud_iOS"/>
+	<param name="android_app_key" value="57a334fbe0f55af7c2003845"/>
+	<param name="android_app_channel" value="APICloud_Android"/>
+	</feature>
+	<feature name="aliTradePlus">
+		<param name="appKey" value="24613905"/>
+		<param name="urlScheme" value="tbopen24613905"/>
+	</feature>
+	<feature name="alibaichuan">
+		<param name="urlScheme" value="tbopen24613905"/>
+	</feature>
+ -->
+	<feature name="aliPush">
+		<param name="AppKey" value="23420104"/>
+		<param name="AppSecret" value="4a8e90a279c7c116883925cc0b5784bc"/>
+		<param name="autoRegister" value="true"/>
+	</feature>
 </widget>
